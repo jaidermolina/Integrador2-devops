@@ -38,7 +38,7 @@ public class API {
 
     @GetMapping("/")
     @ResponseBody
-    String root() {
+    public String root() {
         return welcomeMessage;
     }
 
