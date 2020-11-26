@@ -9,6 +9,8 @@ import lombok.Getter;
 @Getter
 @AllArgsConstructor
 public class OrderVM {
+
     private String id;
     private String description;
+    
 }
